@@ -1,0 +1,33 @@
+S NO;STATE;HOSPITALS;VACCINE
+1;Bavaria;Martha Maria Hopital;Vaxzevria:Janssen:Moderna:Pfizer-BioNTech
+2;Bavaria;Helios Hospital West of Munich;Janssen:Moderna:Pfizer-BioNTech
+3;Baden-Wurttemberg;Kathaarinen Hospital;Vaxzevria:Janssen:Moderna
+4;Baden-Wurttemberg;Robert-Bosch Hospital;Janssen:Moderna
+5;North Rhine-Westphalia;Marien Hospital Dusseldorf;Pfizer-BioNTech:Vaxzevria
+6;North Rhine-Westphalia;Evangelical Hospital;Janssen:Moderna:Pfizer-BioNTech
+7;Lower Saxony;Elienriede Hannover Clinic;Vaxzevria:Janssen 
+8;Lower Saxony;Vincent Hospital Hannover;Moderna:Pfizer-BioNTech
+9;Hessen;St.Joseph`s Hospital Wiesbaden;Vaxzevria:Janssen
+10;Hessen;DKD Helios C Klinik;Moderna:Pfizer-BioNTech
+11;Saxony;St.Joseph Stift Dresden;Vaxzevria:Janssen
+12;Saxony;University Hospital Carl Gustav Carus Dresden;Moderna:Pfizer-BioNTech
+13;Schleswig-Holstein;Community Hospitals Kiel;Vaxzevria:Janssen
+14;Schleswig-Holstein;Helios Kinik Kiel;Vaxzevria:Janssen:Moderna:Pfizer-BioNTech
+15;Rhineland-Palatinate;Katholisches Klinikm Mainz;Vaxzevria:Janssen
+16;Rhineland-Palatinate;Klinikum der Johannes Gutenberg University;Moderna:Pfizer-BioNTech
+17;Thuringia;Helios Klinik Erfurt;Janssen:Moderna
+18;Thuringia;Katholisches Krankenhaus Melchendorf;Moderna:Pfizer-BioNTech
+19;Saarland;Klinikum Saarbrucken;Vaxzevria:Janssen
+20;Saarland;Evangelical City Hospital Saarbrucken;Moderna:Pfizer-BioNTech
+21;Saxony Anhalt;University Hospital Magdeburg;Moderna:Pfizer-BioNTech
+22;Saxony Anhalt;Hospital St.Marienstift Magdeburg;Vaxzevria:Janssen
+23;Hamburg;Israeli Hospital Hamburg;Moderna:Pfizer-BioNTech
+24;Hamburg;Marien Hospital Hamburg;Janssen:Moderna
+25;Bremen;Hospital St.Joseph Stift Bremen;Moderna:Pfizer-BioNTech
+26;Bremen;Klinikum Bremen-Nord Gmbh;Moderna:Pfizer-BioNTech
+27;Bradenburg;St.Josefs Hospital;Vaxzevria:Janssen
+28;Bradenburg;Klinikum Ernst von Bergmann;Moderna:Pfizer-BioNTech
+29;Mecklenburg;Helios Kliniken Schwerin;Janssen:Moderna
+30;Mecklenburg;Carolinas Medical Center;Vaxzevria:Janssen
+31;Berlin;St.John`s Hospital;Moderna:Pfizer-BioNTech
+32;Berlin;Helios Kliniken;Vaxzevria:Janssen
