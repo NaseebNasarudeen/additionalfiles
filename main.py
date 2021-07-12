@@ -52,7 +52,7 @@ Address: Karl Marx Straße 12,
         filePath = os.path.dirname(os.path.realpath(__file__))
         # Images
         smallHomeImage = PhotoImage(
-            file=os.path.join(filePath, "home-icon-silhouette.png")
+            file=os.path.join(filePath, "home.png")
         ).subsample(10, 10)
         syringeImage = PhotoImage(file=os.path.join(filePath, "syringe.png")).subsample(
             10, 10
