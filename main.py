@@ -46,7 +46,7 @@ Address: Karl Marx Straße 12,
     13347 Berlin
 """
         self.master.protocol("WM_DELETE_WINDOW", self._closeApp)
-        master.title("Vaccination Buddy")
+        master.title("QuickJabs")
         # master.config(bg="gray17")
         master.geometry("850x750")
         filePath = os.path.dirname(os.path.realpath(__file__))
@@ -115,7 +115,7 @@ Address: Karl Marx Straße 12,
         self.changeOnHover(sidebarTop, homeButton, "Home Screen")
         self.changeOnHover(sidebarTop, newButton, "New Registration")
         self.changeOnHover(sidebarTop, searchButton, "Search Centers")
-        self.changeOnHover(sidebarTop, modifyButton, "Modify/Delete Registration")
+        self.changeOnHover(sidebarTop, modifyButton, "Modify Registration")
         self.changeOnHover(sidebarTop, viewButton, "View Appointments")
         self.changeOnHover(sidebarBottom, infoButton, "Info")
         self.changeOnHover(sidebarBottom, exitButton, "Exit")
