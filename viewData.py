@@ -154,7 +154,7 @@ class viewForm:
         self.nameQuery = Entry(self.buttonFrame)
         self.nameQuery.grid(row=0, column=0)
         self.submitButton = ttk.Button(
-            self.buttonFrame, text="Search First", command=lambda: self.modifyinDb()
+            self.buttonFrame, text="Search First Name", command=lambda: self.modifyinDb()
         )
         self.submitButton.grid(row=0, column=1)
 
