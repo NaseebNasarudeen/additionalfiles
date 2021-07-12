@@ -6,6 +6,9 @@ import os
 
 # from PIL import ImageTk, Image
 from viewTable import dataTB
+from vaccinRegister import registrationForm
+from modifyData import modifyForm
+from viewData import viewForm
 
 # from tkinter import PhotoImage
 
@@ -89,20 +92,22 @@ Address: Karl Marx Straße 12,
         )
         homeButton.image = smallHomeImage
 
-        newButton = Button(sidebarTop,image=syringeImage, command=lambda: newFrame.tkraise())
+        newButton = Button(
+            sidebarTop, image=syringeImage, command=lambda: newFrame.tkraise()
+        )
         newButton.image = syringeImage
         searchButton = Button(
             sidebarTop, image=searchImage, command=lambda: searchFrame.tkraise()
         )
         searchButton.image = searchImage
         modifyButton = Button(
-            sidebarTop,image=editImage, command=lambda: modifyFrame.tkraise()
+            sidebarTop, image=editImage, command=lambda: modifyFrame.tkraise()
         )
         modifyButton.image = editImage
         viewButton = Button(
             sidebarTop, image=viewImage, command=lambda: viewFrame.tkraise()
         )
-        viewButton.image = viewImage 
+        viewButton.image = viewImage
         infoButton = Button(sidebarBottom, image=infoImage, command=self._infoMessage)
         infoButton.image = infoImage
         exitButton = Button(sidebarBottom, image=exitImage, command=self._closeApp)
@@ -131,9 +136,10 @@ Address: Karl Marx Straße 12,
 
         # New Data Frame
         newFrame = Frame(mainarea)
-        Label(newFrame, text="This is New Data Frame").pack(
-            fill="both", expand=True, anchor="center"
-        )
+        registrationForm(newFrame)
+        # Label(newFrame, text="This is New Data Frame").pack(
+        #     fill="both", expand=True, anchor="center"
+        # )
         newFrame.grid(row=0, column=0, sticky="nsew")
 
         # Search Frame
@@ -146,16 +152,12 @@ Address: Karl Marx Straße 12,
 
         # Modify Frame
         modifyFrame = Frame(mainarea)
-        Label(modifyFrame, text="This is Modify Frame").pack(
-            fill="both", expand=True, anchor="center"
-        )
+        modifyForm(modifyFrame)
         modifyFrame.grid(row=0, column=0, sticky="nsew")
 
         # View Frame
         viewFrame = Frame(mainarea)
-        Label(viewFrame, text="This is View Frame").pack(
-            fill="both", expand=True, anchor="center"
-        )
+        viewForm(viewFrame)
         viewFrame.grid(row=0, column=0, sticky="nsew")
 
         homeFrame.tkraise()
@@ -192,6 +194,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
